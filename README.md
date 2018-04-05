@@ -1,9 +1,8 @@
 # Notes
 ## Vue项目兼容IE浏览器
 ###    问题：
-      Vue项目部署到服务器后，除IE浏览器外其他
-      都正常，而IE浏览器会报这么个问题 
-      > SCRIPT5022: [vuex] vuex requires a Promise polyfill in this browser.
+      Vue项目部署到服务器后，除IE浏览器外其他都正常，而IE浏览器会报这么个问题：
+> SCRIPT5022: [vuex] vuex requires a Promise polyfill in this browser.
     
 ###   原因：
 
