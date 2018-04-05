@@ -6,13 +6,13 @@
     
 ###   原因：
 
-     #### 因为Vue使用了ES6 Promise，而IE浏览器不支持，解决方法是: 
-     #### 使用babel-polyfill转换 
-     >  $ npm install --save-dev babel-polyfill
+    因为Vue使用了ES6 Promise，而IE浏览器不支持，解决方法是: 
+    使用babel-polyfill转换 
+>  $ npm install --save-dev babel-polyfill
      
-     #### 如果使用vue-cli项目，在webpack.config.js中添加：
-     > require('babel-polyfill');
-     >
-     > entry: {
-     >   app: ['babel-polyfill','./src/main.js']
-     > },
+    如果使用vue-cli项目，在webpack.config.js中添加：
+> require('babel-polyfill');
+>
+> entry: {
+>   app: ['babel-polyfill','./src/main.js']
+> },
